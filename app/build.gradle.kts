@@ -7,6 +7,10 @@ android {
     namespace = "com.example.intentimplicito"
     compileSdk = 36
 
+    buildFeatures{
+        viewBinding = true
+    }
+
     defaultConfig {
         applicationId = "com.example.intentimplicito"
         minSdk = 24
