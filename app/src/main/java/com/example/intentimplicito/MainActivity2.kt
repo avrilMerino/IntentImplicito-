@@ -12,7 +12,7 @@ class MainActivity2 : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         enableEdgeToEdge()
-        setContentView(R.layout.activity_main2) // Mostramos el layout de esta pantalla
+        setContentView(R.layout.activity_main2) //Mostramos el layout de esta pantalla
         // Obtenemos referencias a los 3 EditText y al botón del layout
         // (Aquí uso findViewById por simplicidad
         val etNombre  = findViewById<EditText>(R.id.lblNombre) //nombre
